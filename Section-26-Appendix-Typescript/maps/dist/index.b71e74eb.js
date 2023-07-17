@@ -576,6 +576,6 @@ function hmrAccept(bundle /*: ParcelRequire */ , id /*: string */ ) {
 },{}],"h7u1C":[function(require,module,exports) {
 console.log("foo");
 
-},{}]},["96tlz","h7u1C"], "h7u1C", "parcelRequire94c2")
+},{}]},["96tlz","h7u1C"], "h7u1C", "parcelRequire57d4")
 
 //# sourceMappingURL=index.b71e74eb.js.map
