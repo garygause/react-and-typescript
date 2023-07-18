@@ -1,5 +1,5 @@
 import ReactDom from 'react-dom/client';
-import GuestList from './state/GuestList';
+import UserSearch from './state/UserSearch';
 
 const root = ReactDom.createRoot(
   document.getElementById('root') as HTMLElement
@@ -8,7 +8,7 @@ const root = ReactDom.createRoot(
 const App = () => {
   return (
     <div>
-      <GuestList />
+      <UserSearch />
     </div>
   );
 };
