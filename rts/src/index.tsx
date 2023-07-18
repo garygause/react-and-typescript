@@ -1,5 +1,5 @@
-import React from 'react';
 import ReactDom from 'react-dom/client';
+import GuestList from './state/GuestList';
 
 const root = ReactDom.createRoot(
   document.getElementById('root') as HTMLElement
@@ -8,7 +8,7 @@ const root = ReactDom.createRoot(
 const App = () => {
   return (
     <div>
-      <h1>cello</h1>
+      <GuestList />
     </div>
   );
 };
