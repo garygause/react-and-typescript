@@ -9,4 +9,8 @@ export class User {
     this.name = name;
     this.location = location;
   }
+
+  markerContent(): string {
+    return `User is ${this.name}`;
+  }
 }

@@ -2,6 +2,8 @@
 import { faker } from '@faker-js/faker';
 import { User } from './User';
 import { Company } from './Company';
+import { Map } from './Map';
+
 
 const location = {
   lat: faker.location.latitude(),
@@ -10,7 +12,6 @@ const location = {
 
 const user = new User(faker.person.firstName(), location);
 
-const map = new google.maps.Map(document.getElementById('map') as HTMLElement, {
-  center: location,
-  zoom: 1,
-});
+const map = new Map('map');
+map.addMarker(user);
+
