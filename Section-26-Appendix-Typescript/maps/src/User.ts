@@ -1,6 +1,4 @@
-import { faker } from '@faker-js/faker';
-
-class User {
+export class User {
   name: string;
   location: {
     lat: number;
@@ -8,12 +6,7 @@ class User {
   };
 
   constructor(name: string, location: { lat: number; lng: number }) {
-    // faking data for tut, but keeping constructor args because that is
-    // more "real"
-    this.name = faker.person.firstName();
-    this.location = {
-      lat: faker.location.latitude(),
-      lng: faker.location.longitude(),
-    };
+    this.name = name;
+    this.location = location;
   }
 }
