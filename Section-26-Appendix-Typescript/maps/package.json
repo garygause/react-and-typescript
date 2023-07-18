@@ -10,5 +10,8 @@
   "license": "ISC",
   "devDependencies": {
     "@faker-js/faker": "^8.0.2"
+  },
+  "dependencies": {
+    "@types/google.maps": "^3.53.4"
   }
 }

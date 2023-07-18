@@ -1,3 +1,3 @@
-class Company {
+export class Company {
   constructor() {}
 }
