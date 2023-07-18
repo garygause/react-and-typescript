@@ -12,4 +12,4 @@ const location = {
 const user = new User(faker.person.firstName(), location);
 
 const map = new Map('map');
-map.addUserMarker(user);
+map.addMarker(user);
